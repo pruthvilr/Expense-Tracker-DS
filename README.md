@@ -32,3 +32,32 @@ Expense-Tracker-DS/
 ├── app.py                 # Main Streamlit Dashboard UI
 ├── requirements.txt       # Dependencies
 └── README.md              # Project Documentation
+```
+## Data Science Logic Flow
+Ingestion: User inputs transaction details via the Streamlit sidebar.
+
+Persistence: Data is appended to a structured CSV file using mode='a'.
+
+Processing: The logic.py module cleans and groups data using Pandas .groupby() and .strftime() functions.
+
+Insight: Matplotlib generates statistical plots to visualize the user's financial behavior.
+
+## 🏁 Installation & Usage
+Clone the Repo:
+
+PowerShell
+git clone [https://github.com/YOUR_USERNAME/Expense-Tracker-DS.git](https://github.com/pruthvilr/Expense-Tracker-DS.git)
+Install Tools:
+
+PowerShell
+python -m pip install -r requirements.txt
+Run App:
+
+PowerShell
+python -m streamlit run app.py
+## 👨‍💻 Author
+Pruthvi
+
+First Year ISE Student
+
+Siddaganga Institute of Technology (SIT), Tumakuru
